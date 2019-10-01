@@ -33,7 +33,6 @@ guard :minitest, spring: "bin/rails test", all_on_start: false do
   # watch(%r{^app/views/(.+)_mailer/.+})                   { |m| "test/mailers/#{m[1]}_mailer_test.rb" }
   # watch(%r{^lib/(.+)\.rb$})                               { |m| "test/lib/#{m[1]}_test.rb" }
   # watch(%r{^test/.+_test\.rb$})
-  # watch(%r{^test/test_helper\.rb$}) { 'test' }
 
   # Rails < 4
   # watch(%r{^app/controllers/(.*)\.rb$}) { |m| "test/functional/#{m[1]}_test.rb" }
